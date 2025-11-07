@@ -11,8 +11,8 @@ This project contains automated end-to-end tests for the DemoBlaze e-commerce ap
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd demoblaze-automation
+    git clone https://github.com/heysomya/se2-assignment2.git
+    cd selenium/demoblaze-automation
     ```
 
 2.  **Create a virtual environment (Recommended):**
@@ -23,7 +23,12 @@ This project contains automated end-to-end tests for the DemoBlaze e-commerce ap
 
 3.  **Install dependencies:**
     ```bash
-    pip install selenium pytest
+    pip install selenium pytest pytest-html
+    ```
+
+4. **Run the tests:**
+    ```bash
+    pytest tests/test_scenarios.py --html=reports/demo_blaze_report.html --self-contained-html
     ```
 
 ## Project Structure
