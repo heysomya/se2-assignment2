@@ -18,12 +18,12 @@ This project contains automated end-to-end tests for the DemoBlaze e-commerce ap
 2.  **Create a virtual environment (Recommended):**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    source venv/bin/activate  # On Windows: venv/Scripts/activate
     ```
 
 3.  **Install dependencies:**
     ```bash
-    pip install selenium pytest pytest-html
+    pip install selenium pytest pytest-html webdriver-manager
     ```
 
 4. **Run the tests:**
