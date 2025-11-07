@@ -27,8 +27,6 @@ geckodriver*
 
 # Test Reports and Artifacts
 demoblaze-automation/reports/
-reports/
-*.html
 *.xml
 allure-results/
 allure-report/
