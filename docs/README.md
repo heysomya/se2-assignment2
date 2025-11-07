@@ -12,7 +12,7 @@ This project contains automated end-to-end tests for the DemoBlaze e-commerce ap
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/heysomya/se2-assignment2.git
-    cd selenium/demoblaze-automation
+    cd se2-assignment2/selenium/demoblaze-automation
     ```
 
 2.  **Create a virtual environment (Recommended):**
