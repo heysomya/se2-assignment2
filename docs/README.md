@@ -35,6 +35,7 @@ This project contains automated end-to-end tests for the DemoBlaze e-commerce ap
 
 The project follows the Page Object Model structure:
 
+```
 selenium/
 ├── demoblaze-automation/
 │   ├── pages/
@@ -59,3 +60,4 @@ selenium/
 │   └── testcases_results.pdf         # Results of testcases
 │
 └── .gitignore                        # To exclude virtual envs, cache, reports, etc.
+```
