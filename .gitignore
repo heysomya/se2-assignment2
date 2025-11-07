@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Selenium / WebDriver
+*.log
+*.db
+*.sqlite3
+*.bak
+
+# Browser Drivers
+chromedriver*
+geckodriver*
+
+# Test Reports and Artifacts
+demoblaze-automation/reports/
+reports/
+*.html
+*.xml
+allure-results/
+allure-report/
+
+# Screenshots
+demoblaze-automation/reports/screenshots/
+screenshots/
+
+# Pytest Cache
+.pytest_cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# System Files
+.DS_Store
+Thumbs.db
